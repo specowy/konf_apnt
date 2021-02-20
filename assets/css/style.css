@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+html {
+    font-family: 'Open Sans', sans-serif!important;
+    scroll-behavior: smooth;
+    cursor: default;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+}
+
+.btn {
+    font-size: 1.3rem;
+    min-width: 250px;
+    margin-top: 15px;
+    font-weight: 900;
+}
+
+#register {
+    font-family: monospace;
+    background: #5ce1e6;
+    color: #000;
+    cursor: pointer;
+    padding: 1rem;
+    border: 0;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+#register:hover {
+    background: #042944;
+    color: #fff;
+    transition: all 0.5s;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px #0000ff61;
+}
+
+#program {
+    font-family: monospace;
+    background: #042944;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 1rem;
+    border: 0;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+
+#program:hover {
+    background: #5ce1e6;
+    transition: all 0.5s;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px #1bd0fd61;
+}
+
+.timer {
+    padding-top: 20px;
+    width: 100%!important;
+}

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 html {
-    font-family: 'Open Sans', sans-serif!important;
+    font-family: 'Open Sans'!important;
     scroll-behavior: smooth;
     cursor: default;
 }
@@ -56,4 +56,8 @@ html {
 .timer {
     padding-top: 20px;
     width: 100%!important;
+}
+
+#kontakt {
+    line-height: 2!important;
 }
